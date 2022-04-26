@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main-styles.css">
+  <link rel="stylesheet" href="styles/main-media.css">
+
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+  <title>Travel Agency</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-top">
+        <img src="./assets/images/header__logo.svg" alt="Header-logo" class="header-top__logo">
+        <ul class="header-top__nav">
+          <li class="link" > <a href="#">Главная</a> </li>
+          <li class="link" > <a href="#adout-us">О нас</a> </li>
+          <li class="link" > <a href="#excursion">Виды экскурсий</a> </li>
+          <li class="link" > <a href="#gallery">Галерея</a> </li>
+          <li class="link" > <a href="#recall">Отзывы</a> </li>
+          <li class="link" > <a href="#registr">Оставить заявку</a> </li>
+          <li class="link" > <a href="#footer">Контакты</a> </li>
+        </ul>
+      </div>
+
+      <div class="header-content">
+        <div>
+          <h1 class="header-content__title">ПУТЕШЕСТВУЙ<br>
+            <span>PERO TRAVEL</span>
+          </h1>
+          <button class="header-content__button">К экскурсиям</button>
+        </div>
+        <div class="socials">
+          <a href="#" class="socials__link link">
+            <img src="./assets/images/socials-logo__vk.svg" alt="Vk" class="socials__icon">
+          </a>
+          <a href="#" class="socials__link">
+            <img src="./assets/images/socials-logo__inst.svg" alt="Inst" class="socials__icon">
+          </a>
+          <a href="#" class="socials__link">
+            <img src="./assets/images/socials-logo__fb.svg" alt="Fb" class="socials__icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about-us" id="adout-us">
+      <div class="wrapper">
+        <div class="about-us__inner">
+            <div class="about-us__card">
+              <div class="about-us__card-inner">
+                <h2 class="about-us__title">О нас</h2>
+                <div class="about-us__text">
+                  <p>PeroTravel - Первый онлайн-сервис по бронированию экскурсий без очередей и операторов. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="excursion" id="excursion">
+      <div class="wrapper">
+        <h2 class="excursion__title">Виды экскурсий</h2>
+        <div class="excursion__content">
+          <div class="excursion__column">
+            <div class="excursion__item">
+              <img src="./assets/images/excursion__img-bus.png" alt="Bus" class="excursion__item-img">
+              <div>
+                <h3 class="excursion__item-title">Автобусный тур</h3>
+                <p class="excursion__item-text">Один из самых насыщенных впечатлениями, доступных по цене и популярных видов отдыха. Во время одной поездки можно посмотреть достопримечательности сразу нескольких городов, причем обойдется это едва ли не в разы дешевле классического экскурсионного тура с ночевками в отелях.</p>
+              </div>
+            </div>
+            <div class="excursion__item">
+              <img src="./assets/images/excursion__img-canyoning.png" alt="Canyoning" class="excursion__item-img">
+              <div>
+                <h3 class="excursion__item-title">Яхтинг</h3>
+                <p class="excursion__item-text">Это то же, что круиз на лайнере или прогулка на пароме, только на яхте больше свободы, размеры судна в разы меньше, нет назойливой команды, можно самостоятельно почувствовать себя капитаном, постоять за штурвалом. Именно здесь вы почувствуете величайшие просторы Черногор моря.</p>
+              </div>
+            </div>
+          </div>
+          <div class="excursion__column">
+            <div class="excursion__item">
+              <img src="./assets/images/excursion__img-jeeping.png" alt="Jeeping" class="excursion__item-img">
+              <div>
+                <h3 class="excursion__item-title">Джиппинг</h3>
+                <p class="excursion__item-text">Это путешествие на автомобилях высокой проходимости с преодолением естественных препятствий, это экстремальный вид спорта и отдыха, представляющий собой прохождение туристического маршрута по бездорожью на автомобилях.</p>
+              </div>
+            </div>
+            <div class="excursion__item">
+              <img src="./assets/images/excursion__img-yachting.png" alt="Yachting" class="excursion__item-img">
+              <div>
+                <h3 class="excursion__item-title">Каньонинг</h3>
+                <p class="excursion__item-text">Это экстремально-спортивный вид отдыха, который заключается в преодолении каньонов (обводненных или нет) при помощи альпинистского и иного снаряжения, а иногда и вброд, но без лодок или иных плавсредств.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="excursion__description">Выбирайте на нашем сайте экскурсию, которая подходит именно вам и записывайтесь онлайн без очередей, просто и быстро!</p>
+        <button class="excursion__button">К экскурсиям</button>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="wrapper-gallery">
+        <div class="gallery-head">
+          <h2 class="gallery-head__title">Галерея</h2>
+          <a href="#" class="gallery-head__link link">Смотреть все</a>
+        </div>
+        <div class="gallery__images">
+          <div class="gallery__colmn">
+            <a href="#" class="gallery__img-link">
+              <img src="./assets/images/gallery__img01.jpg" alt="gallery__img01" class="gallery__img">
+            </a>
+            <div class="gallery__row">
+              <a href="#" class="gallery__img-link">
+                <img src="./assets/images/gallery__img02.jpg" alt="gallery__img02" class="gallery__img">
+              </a>
+              <div class="gallery__block">
+                <a href="#" class="gallery__img-link">
+                  <img src="./assets/images/gallery__img03.jpg" alt="gallery__img03" class="gallery__img">
+                </a>
+                <a href="#" class="gallery__img-link">
+                  <img src="./assets/images/gallery__img04.jpg" alt="gallery__img04" class="gallery__img">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="gallery__colmn">
+            <a href="#" class="gallery__img-link">
+              <img src="./assets/images/gallery__img05.jpg" alt="gallery__img05" class="gallery__img">
+            </a>
+          </div>
+          <div class="gallery__colmn">
+            <div class="gallery__row">
+              <a href="#" class="gallery__img-link">
+                <img src="./assets/images/gallery__img06.jpg" alt="gallery__img06" class="gallery__img">
+              </a>
+              <a href="#" class="gallery__img-link">
+                <img src="./assets/images/gallery__img07.jpg" alt="gallery__img07" class="gallery__img">
+              </a>
+            </div>
+            <a href="#" class="gallery__img-link">
+              <img src="./assets/images/gallery__img08.jpg" alt="gallery__img08" class="gallery__img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recall" id="recall">
+      <div class="wrapper">
+        <div class="recall-head">
+          <h2 class="recall-head__title">Отзывы</h2>
+          <a href="#" class="recall-head__link link">Смотреть все</a>
+        </div>
+        <div class="recall-slider">
+          <div class="recall-items">
+            <div class="recall-items__card">
+              <img src="./assets/images/recall_img01.jpg" alt="recall-img01" class="recall-items__img">
+              <div class="recall-items__content">
+                <h3 class="recall-items__title">Иван Иванов, 25 лет</h3>
+                <p class="recall-items__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Гор ему рыбными о дорогу жаренные, великий деревни по всей продолжил его, ты это, возвращайся рукописи пояс имеет запятых букв всеми.</p>
+              </div>
+              
+            </div>
+            <div class="recall-items__card">
+              <img src="./assets/images/recall_img02.jpg" alt="recall-img02" class="recall-items__img">
+              <div class="recall-items__content">
+                <h3 class="recall-items__title">Иван Иванов, 25 лет</h3>
+                <p class="recall-items__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Гор ему рыбными о дорогу жаренные, великий деревни по всей продолжил его, ты это, возвращайся рукописи пояс имеет запятых букв всеми.</p>
+              </div>
+          
+            </div>
+            <div class="recall-items__card">
+              <img src="./assets/images/recall_img01.jpg" alt="recall-img01" class="recall-items__img">
+              <div class="recall-items__content">
+                <h3 class="recall-items__title">Иван Иванов, 25 лет</h3>
+                <p class="recall-items__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Гор ему рыбными о дорогу жаренные, великий деревни по всей продолжил его, ты это, возвращайся рукописи пояс имеет запятых букв всеми.</p>
+              </div>
+            </div>
+            <div class="recall-items__card">
+              <img src="./assets/images/recall_img02.jpg" alt="recall-img02" class="recall-items__img">
+              <div class="recall-items__content">
+                <h3 class="recall-items__title">Иван Иванов, 25 лет</h3>
+                <p class="recall-items__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Гор ему рыбными о дорогу жаренные, великий деревни по всей продолжил его, ты это, возвращайся рукописи пояс имеет запятых букв всеми.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="registr" id="registr">
+      <div class="wrapper">
+        <div class="block-blur">
+          <form action="#">
+            <fieldset class="form">
+              <div class="title-block">
+                <h2 class="title-block__title">Остались вопросы?</h2>
+                <h3 class="title-block__subtitle">Оставь заявку и мы ответим</h3>
+              </div>
+              <div class="input-block">
+                <input class="input-block__inp" type="text" placeholder="Имя">
+                <input class="input-block__inp" type="text" placeholder="Телефон">
+                <input class="input-block__inp" type="text" placeholder="Почта">
+                <button class="input-block__button">Оставить заявку</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer"> 
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-menu">
+          <img src="./assets/images/footer-logo.png" alt="footer-logo" class="footer-menu__logo">
+          <ul class="footer-menu__nav">
+            <a class="link" href="#">Главная</a>
+            <a class="link" href="#">Экскурсии</a>
+            <a class="link" href="#">Личный кабинет</a>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-contact__colmn">
+            <ul>
+              <li class="footer-contact__item">
+                <img class="footer-contact__icon" src="./assets/images/icon-wa.svg" alt="footer-icon__wa">
+                <a class="footer-contact__text" href="#">+7 964 944 18 74</a>
+              </li>
+              <li class="footer-contact__item">
+                <img class="footer-contact__icon" src="./assets/images/icon-tg.svg" alt="footer-icon__tg">
+                <a class="footer-contact__text" href="#">+7 918 919 98 28</a>
+              </li>
+              <li class="footer-contact__item">
+                <img class="footer-contact__icon" src="./assets/images/icon-tg.svg" alt="footer-icon__tg">
+                <a class="footer-contact__text" href="#">Телеграм-бот PeroTravel</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact__colmn">
+            <ul>
+              <li class="footer-contact__item">
+                <img class="footer-contact__icon" src="./assets/images/icon-gm.svg" alt="footer-icon__gm">
+                <a class="footer-contact__text" href="#">office@perotravel.ru</a>
+              </li>
+              <li class="footer-contact__item">
+                <a href="#"><img src="./assets/images/footer-social__icon-vk.svg" alt="vk" class="footer-contact__socials"></a>
+                <a href="#"><img src="./assets/images/footer-social__icon-inst.svg" alt="inst" class="footer-contact__socials"></a>
+                <a href="#"><img src="./assets/images/footer-social__icon-fb.svg" alt="fb" class="footer-contact__socials"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+  <script src="script/main.js"></script>
+  <script src="libs/slick/slick.min.js"></script>
+  <!-- <script src="script/slider.js"></script> -->
+</body>
+</html>
